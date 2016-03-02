@@ -1,0 +1,57 @@
+// This file is a sample result based on Naive Bayes classifier in json format
+// Assume that we have 100 instances
+// Assume that we have 5 Classes(Attributes/Features)
+
+{
+   "NumberOfClasses" : 5,
+   "TotalNumofInstance": 100.0,
+   "CorrenctInstances" : 80.0,
+   "IncorrenctInstances" : 15.0,
+   "UnclassifiedInstances" : 5.0,
+   "MissingValue" : 0.0,
+   "Classified" : [
+      1, //Correct
+      0   // Incorrect
+   ],
+   
+   "AccuracyByClass": [
+      [
+         0.0, //TP rate
+         0.0, // FP rate
+         0.0, // precision
+         0.0, // recall
+         0.0, // f-measure
+         0.0, // roc area
+         0 // class(classified)
+      ],
+      [
+         0.0, //TP rate
+         0.0, // FP rate
+         0.0, // precision
+         0.0, // recall
+         0.0, // f-measure
+         0.0, // roc area
+         1 // class(classified)
+      ],
+      [   //weighted Average
+         0.0, //TP rate
+         0.0, // FP rate
+         0.0, // precision
+         0.0, // recall
+         0.0, // f-measure
+         0.0, // roc area
+      
+      ]
+   ],
+   "ConfusionMatrix" : [
+      [
+         0.0, //True Positive
+         0.0  // False Positive
+      ],
+      [
+         0.0, // True Negative
+         0.0  // False Negative
+      ]
+   ],
+
+}
